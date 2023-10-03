@@ -1,0 +1,79 @@
+.viewprice-container {
+  text-align: center;
+}
+
+.viewprice-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px; 
+}
+
+.metal-table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  .metal-table th,
+  .metal-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .metal-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .metal-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .metal-table tr:hover {
+    background-color: #ddd;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: rgb(250, 192, 192);
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand h1 {
+    margin: 0;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: rgb(182, 229, 248);
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+
+  
+.home-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; 
+  margin-top: 50px;
+}
+
+.home-container h1 {
+  font-size: 32px; 
+}
+
+.home-container p {
+  font-size: 20px; 
+  color: #555; 
+}
